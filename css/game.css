@@ -8,6 +8,7 @@
 
 .actor { position: absolute; }
 .player { background: rgb(64, 64, 64); }
+.coin { background: rgb(241, 229, 89); }
 
 .game {
   position: relative;
@@ -15,3 +16,6 @@
     max-width: 600px;
     overflow: hidden;
 }
+
+.lost .player {
+  background: rgb(160, 64, 64);
